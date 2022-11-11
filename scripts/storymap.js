@@ -327,7 +327,7 @@ $(window).on('load', function() {
                 overlay = L.geoJson(geojson, {
                   style: function(feature) {
                     return {
-                      fillColor: feature.properties.fillColor || '#CC0000',
+                      fillColor: feature.properties.fillColor || '#ffffff',
                       weight: feature.properties.weight || 1,
                       opacity: feature.properties.opacity || opacity,
                       color: feature.properties.color || '#cccccc',
